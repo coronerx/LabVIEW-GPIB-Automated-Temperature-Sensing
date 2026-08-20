@@ -29,11 +29,11 @@ settled at a physically sane ~300 K room temperature (see
 ## Repo contents
 
 ```
-data/         raw logged measurements (CSV)
+RadData.xlsx         raw logged measurements 
 analysis.py   loads whatever CSVs are present, fits exponential
               decay/growth (thermistor thermal response, tau),
               plots and saves figures
-figures/      generated plots (gitignored input, committed output optional)
+writeup.pdf/      writeup for this lab (gitignored input, committed output optional)
 ```
 
 Only `data/thermistor_room_temp.csv` is currently populated — it's the
